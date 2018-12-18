@@ -1,0 +1,4 @@
+model_checkpoint_path: "/Users/sisuser/Documents/Apple/clustering/cluster_dl_good_1217_david/checkpoint/model/cluster.ckpt-5169"
+all_model_checkpoint_paths: "/Users/sisuser/Documents/Apple/clustering/cluster_dl_good_1217_david/checkpoint/model/cluster.ckpt-4839"
+all_model_checkpoint_paths: "/Users/sisuser/Documents/Apple/clustering/cluster_dl_good_1217_david/checkpoint/model/cluster.ckpt-4949"
+all_model_checkpoint_paths: "/Users/sisuser/Documents/Apple/clustering/cluster_dl_good_1217_david/checkpoint/model/cluster.ckpt-5169"

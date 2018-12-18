@@ -1,0 +1,6 @@
+cluster_id : candidate word
+0 : [('mail', 4.0), ('e', 3.5), ('chat', 3.3), ('please', 1.9), ('thank', 1.8), ('help', 1.7), ('jose', 1.7), ('tfeijen11', 1.6), ('gourav', 1.5), ('would', 1.4), ('accumulate', 1.4), ('like', 1.3), ('bogus', 1.3), ('receive', 1.2), ('spam', 1.2), ('email', 1.1), ('agents', 1.1)]
+1 : [('appointment', 4.0), ('service', 3.5), ('battery', 3.5), ('bar', 3.5), ('genius', 3.5), ('customer', 2.7), ('make', 1.5), ('schedule', 1.5), ('app', 1.4), ('replacement', 1.3), ('store', 1.2), ('appointments', 1.2), ('apple', 1.1), ('appt', 1.1)]
+2 : [('3', 3.9), ('11', 3.9), ('ios', 3.4), ('update', 3.3), ('ios11', 3.3), ('upgrade', 3.0), ('version', 2.7), ('latest', 2.4), ('system', 1.6), ('power', 1.2), ('downgrade', 1.2), ('hot', 1.1)]
+3 : [('phone', 2.0), ('forget', 2.0), ('apple', 1.9), ('plus', 1.9), ('iphone', 1.8), ('pro', 1.8), ('time', 1.7), ('hack', 1.7), ('number', 1.6), ('7', 1.6), ('call', 1.5), ('password', 1.5), ('app', 1.4), ('x', 1.4), ('get', 1.3), ('reset', 1.3), ('use', 1.2), ('slow', 1.2), ('want', 1.1), ('finally', 1.1)]
+4 : [('want', 3.6), ('apple', 2.0), ('game', 2.0), ('phone', 1.9), ('purchase', 1.9), ('app', 1.7), ('itunes', 1.7), ('call', 1.6), ('still', 1.6), ('time', 1.5), ('charge', 1.5), ('get', 1.4), ('value', 1.4), ('use', 1.3), ('buy', 1.3), ('iphone', 1.2), ('lock', 1.2), ('account', 1.1), ('screen', 1.1)]
