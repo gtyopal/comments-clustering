@@ -1,40 +1,6 @@
 1. First run "dl_train.py" to train seq2seq model to generate seq2seq vector,
 and concatenate with word2vec and tfidf-lsi vectors to generate final vectors for clustering.
-2. Then run "dl_clustering.py" to do clustering by using minibatchkmeans/hdbscan, which can be set by dl_setting.py/cluster_type.
+2. Then run "dl_clustering.py" to do clustering by using minibatchkmeans/hdbscan/agglomerative, which can be set by dl_setting.py/cluster_type.
 3. Get final clustering result files of kmeans_cluster_tags.csv/dbscan_cluster_tags.csv as the labeled training dataset for next classification step.
-4. Parameters for Turi-bolt testing:
-name: 'Hyperparamter Search for Comments Clustering'
-setup_command: 'bash setup.sh'
-command: 'python dl_train.py' 'python dl_clustering.py'
-resources:
-  cluster: simcloud-rd1.apple.com
-  image: 'ubuntu16.04-v1'
-  num_gpus: 1
-  memory_gb: 36
-
-parameters:
-  max_epochs: 100
-  batch_size: 64
-  max_num_cluster: 30
-
-tune:
-  name: 'Hyperparamter Search for Comments Clustering''
-
-  search_strategy:
-    type: RANDOM_SEARCH
-
-  objective_label: 'loss'
-  objective_goal: MINIMIZE
-
-  num_trials: 200
-  max_concurrent_trials: 50
-
-  hyperparameters:
-    learning_rate:
-      type: CONTINUOUS
-      range: [0.0001, 0.01]
-
-    hidden_units:
-      type: INTEGER
-      range: [100, 150]
-
+4. Plot the three plots in one screen by running "cluster_result_plot.py
+5. Get the clustering result file with represented label words in each cluster by running "compute_clusterid2name".
